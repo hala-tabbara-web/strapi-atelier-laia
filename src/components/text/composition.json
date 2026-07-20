@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_text_compositions",
+  "info": {
+    "displayName": "Composition"
+  },
+  "options": {},
+  "attributes": {
+    "Stone": {
+      "type": "string"
+    },
+    "Bead_shape": {
+      "type": "string"
+    },
+    "Bead_size": {
+      "type": "string"
+    },
+    "Strand_length": {
+      "type": "string"
+    },
+    "Charms": {
+      "type": "string"
+    },
+    "Metal_details": {
+      "type": "string"
+    },
+    "Assembly": {
+      "type": "string"
+    },
+    "stone_legal_category": {
+      "type": "enumeration",
+      "enum": [
+        "Natural_gemstone",
+        "dyed_gemstone",
+        "synthetic_gemstone"
+      ]
+    }
+  },
+  "config": {}
+}

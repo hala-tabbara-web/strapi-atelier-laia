@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_text_blocks",
+  "info": {
+    "displayName": "Block"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Summary": {
+      "type": "text"
+    },
+    "How_to_wear": {
+      "type": "text"
+    },
+    "Traditional_meaning": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
