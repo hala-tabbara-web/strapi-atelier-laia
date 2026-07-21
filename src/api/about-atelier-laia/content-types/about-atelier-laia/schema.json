@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_atelier_laias",
+  "info": {
+    "singularName": "about-atelier-laia",
+    "pluralName": "about-atelier-laias",
+    "displayName": "About_Atelier_Laia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "The_story": {
+      "type": "text"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

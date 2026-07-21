@@ -20,9 +20,6 @@
     "Charms": {
       "type": "string"
     },
-    "Metal_details": {
-      "type": "string"
-    },
     "Assembly": {
       "type": "string"
     },
@@ -32,6 +29,13 @@
         "Natural_gemstone",
         "dyed_gemstone",
         "synthetic_gemstone"
+      ]
+    },
+    "Metail_dets": {
+      "type": "enumeration",
+      "enum": [
+        "Stainless steel ",
+        "Brass aloy"
       ]
     }
   },

@@ -21,7 +21,7 @@
     },
     "Image_collection": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
         "images",
         "files",
