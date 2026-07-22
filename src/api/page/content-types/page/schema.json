@@ -20,6 +20,9 @@
       "type": "component",
       "component": "layout.footer",
       "repeatable": true
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }
