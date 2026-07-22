@@ -17,11 +17,11 @@
     "Answer": {
       "type": "text"
     },
-    "product": {
+    "products": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::product.product",
-      "inversedBy": "faqs"
+      "mappedBy": "faq"
     }
   }
 }

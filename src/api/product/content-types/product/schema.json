@@ -30,6 +30,9 @@
       "type": "decimal",
       "required": true
     },
+    "SKU": {
+      "type": "string"
+    },
     "Content": {
       "type": "dynamiczone",
       "components": [
@@ -48,11 +51,11 @@
       "component": "shared.seo",
       "repeatable": false
     },
-    "faqs": {
+    "faq": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "api::faq.faq",
-      "mappedBy": "product"
+      "inversedBy": "products"
     }
   }
 }
