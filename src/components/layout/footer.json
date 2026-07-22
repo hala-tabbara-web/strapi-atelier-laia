@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": true
+    },
+    "contactEmail": {
+      "type": "string"
+    },
+    "SocialMedia": {
+      "type": "component",
+      "component": "social-media.link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

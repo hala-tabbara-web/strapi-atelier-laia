@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_layout_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": true
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AnnouncementBar": {
+      "type": "string"
+    },
+    "ShowCart": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

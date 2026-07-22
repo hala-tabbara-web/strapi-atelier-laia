@@ -1,17 +1,17 @@
 {
-  "collectionName": "components_shared_seos",
+  "collectionName": "components_shared_links",
   "info": {
-    "displayName": "seo"
+    "displayName": "link"
   },
   "options": {},
   "attributes": {
-    "metaTitle": {
+    "Label": {
       "type": "string"
     },
-    "metaDescription": {
-      "type": "text"
+    "url": {
+      "type": "string"
     },
-    "MetaImage": {
+    "icon": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -20,9 +20,6 @@
         "videos",
         "audios"
       ]
-    },
-    "Keywords": {
-      "type": "text"
     }
   },
   "config": {}

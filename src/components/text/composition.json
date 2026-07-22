@@ -31,7 +31,7 @@
         "synthetic_gemstone"
       ]
     },
-    "Metail_dets": {
+    "Metal_details": {
       "type": "enumeration",
       "enum": [
         "Stainless steel ",

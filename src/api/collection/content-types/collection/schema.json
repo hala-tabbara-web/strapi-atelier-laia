@@ -11,15 +11,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title_collection": {
+    "Title": {
       "type": "string",
       "required": true
     },
-    "Description_collection": {
+    "Description": {
       "type": "text",
       "required": true
     },
-    "Image_collection": {
+    "Image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -34,6 +34,11 @@
       "relation": "oneToMany",
       "target": "api::product.product",
       "mappedBy": "collection"
+    },
+    "Seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": true
     }
   }
 }
