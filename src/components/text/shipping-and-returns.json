@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_shipping_and_returns",
+  "info": {
+    "displayName": "shipping and returns"
+  },
+  "options": {},
+  "attributes": {
+    "Shipping_policy": {
+      "type": "text"
+    },
+    "Return_policy": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

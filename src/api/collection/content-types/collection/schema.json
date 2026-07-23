@@ -39,6 +39,11 @@
       "type": "component",
       "component": "shared.seo",
       "repeatable": true
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
     }
   }
 }

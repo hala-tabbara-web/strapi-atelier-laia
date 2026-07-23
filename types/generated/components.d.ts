@@ -94,6 +94,17 @@ export interface TextComposition extends Struct.ComponentSchema {
   };
 }
 
+export interface TextShippingAndReturns extends Struct.ComponentSchema {
+  collectionName: 'components_text_shipping_and_returns';
+  info: {
+    displayName: 'shipping and returns';
+  };
+  attributes: {
+    Return_policy: Schema.Attribute.Text;
+    Shipping_policy: Schema.Attribute.Text;
+  };
+}
+
 declare module '@strapi/strapi' {
   export namespace Public {
     export interface ComponentSchemas {
@@ -104,6 +115,7 @@ declare module '@strapi/strapi' {
       'social-media.link': SocialMediaLink;
       'text.block': TextBlock;
       'text.composition': TextComposition;
+      'text.shipping-and-returns': TextShippingAndReturns;
     }
   }
 }
